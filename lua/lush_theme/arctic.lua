@@ -120,7 +120,7 @@ local theme = lush(function(injected_functions)
     Folded { bg = folded_blue },
     CursorLineFold { CursorLineNr },
     FoldColumn { LineNr }, -- #c5c5c5 in VSCode (editorGutter.foldingControlForeground) and it's too bright
-    SignColumn { bg = norm_bg },
+    SignColumn { bg = "NONE" },
     IncSearch { bg = '#515c6a' },
     -- Substitute { },
     MatchParen { bg = gray, gui = 'bold, underline' },
